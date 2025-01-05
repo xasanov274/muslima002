@@ -49,18 +49,15 @@ nav{
     font-size: 16px;
 }
 
-.img1{
-    width: 1503px;
-    height: 797px;
-}
-
 .dv3{
-    width: 1400px;
-    height: 700px;
+    /* width: 1500px;
+    height: 700px; */
     display: flex;
+    flex-direction: column;
     gap: 64px;
-    background-position: center;
     justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-image: url(./images/image\ 5\ \(2\).png)
 }
 
@@ -69,6 +66,9 @@ nav{
     font-weight: 700;
     font-size: 40px;
     padding: 25px 43px 26px 45px;
+    height: 50px;
+    width: 150px;
+    text-align: center;
 }
 
 .p2{
@@ -77,6 +77,9 @@ nav{
     font-size: 40px;
     color: white;
     padding: 20px 18px 22px 18px;
+    height: 60px;
+    width: 210px;
+    text-align: center;
 }
 
 .h1{
@@ -91,6 +94,8 @@ nav{
     justify-content: center;
     border-radius: 10px;
     padding: 31px 22px 31px 22px;
+    align-items: center;
+    margin-left: 263px;
 }
 
 footer{
@@ -106,3 +111,9 @@ footer{
 }
 
 
+.div{
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+    margin-top: 346px;
+}
